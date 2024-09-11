@@ -24,7 +24,7 @@ class Profesional(Persona):
 
     def evaluar(self):
         print(self.nombre + " está evaluando.")
-
+#clase empleado
 class Empleado(Profesional): 
     def __init__(self, nombre, edad, salario, titulo, cargo):
         super().__init__(nombre, edad, salario, titulo)  
