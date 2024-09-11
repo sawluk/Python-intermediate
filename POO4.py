@@ -24,6 +24,10 @@ class Profesional(Persona):
 
     def evaluar(self):
         print(self.nombre + " está evaluando.")
+
+    def caminar(self):
+        return super().caminar()
+    
 #clase empleado
 class Empleado(Profesional): 
     def __init__(self, nombre, edad, salario, titulo, cargo):
