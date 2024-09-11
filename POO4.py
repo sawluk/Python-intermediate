@@ -12,7 +12,7 @@ class Persona:
 
     def comer(self):
         print(self.nombre + " está comiendo.")
-
+#clase profesional
 class Profesional(Persona):
     def __init__(self, nombre, edad, salario, titulo):
         super().__init__(nombre, edad)
